@@ -14,5 +14,6 @@ BackEnd
 - TBD
 	1. Python & Django/Flask
 	2. Javascript & Node.JS
+- SQL DB
 ## Future Improvements
 
