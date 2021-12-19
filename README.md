@@ -8,7 +8,7 @@ FrontEnd
 - HTML
 - CSS
 - Javascript
-- React (Maybe)
+- React (Maybe)  
 BackEnd
 -TBD
 	1. Python & Django/Flask
