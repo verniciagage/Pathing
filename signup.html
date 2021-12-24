@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--Header-->
+<head>
+    <title>Sign Up</title>
+    <meta charset='utf-8'/>
+</head>
+<style>
+    .imgcontainer {
+        text-align: center;
+        margin: 20px 0 12px 0;
+    }
+
+    img.path {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    div.intro {
+        text-align: center;
+    }
+
+    h1 {
+        background-color: green;
+        text-align: center;
+        color: white;
+    
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+
+</style>
+
+
+<body>
+
+
+    <!--Intro-->
+    <div id= "intro">
+        <h1>Pathing</h1><br>
+        <h2>Sign Up Page</h2>
+    </div>
+
+
+    <!--Form-->
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="path2.jpg" alt="Path" class="path">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+
+            <label for="pwd"><b>Password</b></label>
+            <input type="text" placeholder="Enter Password" name="pwd" required>
+            <br>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+            </input>    
+        </div>
+
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        <div class="container" style="background-color:f1f1f1">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    <form action="index.html">
+        <div class="container" style="background-color:f1f1f1">
+            <button type="submit" class="cancelbtn">Cancel</button>
+        </div>
+</form>
+
+
+
+
+</body>
