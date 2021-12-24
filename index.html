@@ -1,18 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <!--Header-->
     <head>
         <title>Pathing</title>
         <meta charset="utf-8"/>
     </head>
-    <body>
-        <!--Intro-->
-        <div id="intro">
-            <h1>Pathing<br>
-                The walking path generator
-            </h1>
-        </div>
 
+    <style>
+        .imgcontainer {
+            text-align: center;
+            margin: 20px 0 12px 0;
+        }
+
+        img.path {
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        #intro {
+            background-color: seagreen;
+            text-align: center;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            background-color: gold;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            display: block;
+            float: left;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+        }
+
+        li:hover {
+            background-color: goldenrod;
+        }
+
+        a {
+            text-decoration: none;
+            color: green;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+
+    </style>
+
+    <body>
+        
         <!--Nav-->
         <nav id="nav">
             <ul class="links">
@@ -21,5 +70,42 @@
                 <li><a href="loop.html">Looping Around</a></li>
             </ul>
         </nav>
+
+        <!--Intro-->
+        <div id="intro">
+            <h1>Pathing<br>
+                The walking path generator
+            </h1>
+        </div>
+
+    
+
+        <!--Form-->
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="path2.jpg" alt="Path" class="path">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </input>
+            </div>
+
+            <div class="container" style="background-color:f1f1f1">
+                <!--Cancel Button    <button type="button" class="cancelbtn">Cancel</button>-->
+                <span class="signup"><a href="signup.html">Sign Up</a></span><br>
+                <span class="psw"><a href="#" style="color:dodgerblue">Forgot password?</a></span>
+            </div>
+
+        </form>
     </body>
 </html>
