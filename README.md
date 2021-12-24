@@ -8,12 +8,11 @@ FrontEnd
 - HTML
 - CSS
 - Javascript
-- React (Maybe)  
 <!-- end of list-->
 BackEnd
-- TBD
-	1. Python & Django/Flask
-	2. Javascript & Node.JS
-- SQL DB
+- Node.JS
+- SQL DB(TBD)
+<!-- end of list-->
 ## Future Improvements
+- Add SQL DB for user info storage
 
