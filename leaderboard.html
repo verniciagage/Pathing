@@ -52,9 +52,9 @@
         margin: 20px 0 12px 0;
     }
 
-    img.path {
-        width: 20%;
-        border-radius: 50%;
+    img.profile_pic {
+        width: 80%;
+        border-radius: 20%;
     }
 
     .container {
@@ -72,6 +72,7 @@
     h1 {
         text-align: center;
         color: black;
+        background-color: ;
     
     }
 
@@ -79,7 +80,50 @@
         text-align: center;
     }
     
+    p.user_info {
+        text-align: center;
+    }
 
+    .split {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;;
+    }
+
+    .left {
+        width: 30%;
+        left: 0;
+        background-color: gold;
+        padding-bottom: 10px;;
+    }
+
+    .right {
+        width: 70%;
+        right: 0;
+        background-color: green;
+        padding-bottom: 10px;
+    }
+
+    img.pop_path {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .popular_paths {
+        text-align: center;
+    }
+
+    img.rec_path {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .recommended_paths {
+        text-align: center;
+    }
 
 </style>
 
@@ -90,51 +134,19 @@
     <!--Intro-->
     <header role="banner" class="header">
         <div class="topnav">
-            <a style="padding:0 0 0 0" href="signin.html">
+            <a style="padding:0 0 0 0" href="home.html">
                 <div class="header_logo">
                     <img src="path2.jpg" alt="Logo" class="logo_image">
                 </div>
             </a>
-            <a href="#" class="header_text"></a>
+            <a href="account.html" class="header_text">Account</a>
+            <a href="mkpath.html" class="header_text">Make Path</a>
+            <a href="leaderboard.html" class="header_text">Leaderboard</a>
+            <a href="signin.html" class="header_text">Log Out</a>
         </div>
     </header>
 
-    <h1>Sign Up</h1>
-
-    <div class="imgcontainer">
-        <img src="path2.jpg" alt="Path" class="path">
-    </div>
-
-    <!--Form-->
-    <form action="signin.html">
-
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <br>
-
-            <label for="pwd"><b>Password</b></label>
-            <input type="text" placeholder="Enter Password" name="pwd" required>
-            <br>
-
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                
-            </input>    
-        </div>
-
-        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-        <div class="container" style="background-color:f1f1f1">
-            <button type="submit">Sign Up</button>
-        </div>
-    </form>
-
-    <form action="signin.html">
-        <div class="container" style="background-color:f1f1f1"><br>
-            <button type="submit" class="cancelbtn">Cancel</button>
-        </div>
-    </form>
+    <h1>Leader Board</h1>
 
 
 

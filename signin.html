@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pathing</title>    
+    </head>
+
+    <style>
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .topnav a.header_text{
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 20px 14px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .logo_image {
+            float: left;
+            height: 100%;
+            max-height: 40px;
+            max-width: 70px;
+            border-radius: 50%;
+            margin: 0;
+            text-align: none;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+        }
+        .topnav a.logo_image {
+            float: left;
+            padding: 0;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 20px 0 12px 0;
+        }
+
+        img.path {
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        a:visited {
+            color: dodgerblue;
+        }
+    </style>
+
+    <body>
+        <header role="banner" class="header">
+            <div class="topnav">
+                <a style="padding:0 0 0 0">
+                    <div class="header_logo">
+                        <img src="path2.jpg" alt="Logo" class="logo_image">
+                    </div>
+                </a>
+                <a href="#" class="header_text"></a>
+            </div>
+        </header>
+
+        <h1>Sign In</h1>
+        <div class="imgcontainer">
+            <img src="path2.jpg" alt="Path" class="path">
+        </div>
+                <!--Form-->
+                <form action="home.html">
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+        
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </input>
+                    </div>
+        
+                    <div class="container" style="background-color:f1f1f1">
+                        <!--Cancel Button    <button type="button" class="cancelbtn">Cancel</button>-->
+                        <span class="signup"><a href="signup.html">Sign Up</a></span><br>
+                        <span class="psw"><a href="changepass.html" style="color:dodgerblue">Forgot password?</a></span>
+                    </div>
+                </form>
+
+                
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
