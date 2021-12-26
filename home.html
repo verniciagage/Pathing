@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--Header-->
+<head>
+    <title>Sign Up</title>
+    <meta charset='utf-8'/>
+</head>
+<style>
+        .topnav {
+            background-color: black;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .topnav a.header_text{
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 20px 14px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .logo_image {
+            float: left;
+            height: 100%;
+            max-height: 40px;
+            max-width: 70px;
+            border-radius: 50%;
+            margin: 0;
+            text-align: none;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+        }
+        .topnav a.logo_image {
+            float: left;
+            padding: 0;
+        }
+
+    .imgcontainer {
+        text-align: center;
+        margin: 20px 0 12px 0;
+    }
+
+    img.profile_pic {
+        width: 80%;
+        border-radius: 20%;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    div.intro {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        color: black;
+        background-color: ;
+    
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    p.user_info {
+        text-align: center;
+    }
+
+    .split {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;;
+    }
+
+    .left {
+        width: 30%;
+        left: 0;
+        background-color: gold;
+        padding-bottom: 10px;
+
+    }
+
+    .right {
+        width: 70%;
+        right: 0;
+        background-color: green;
+    }
+
+    img.pop_path {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .popular_paths {
+        text-align: center;
+    }
+
+    img.rec_path {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .recommended_paths {
+        text-align: center;
+    }
+
+</style>
+
+
+<body>
+
+
+    <!--Intro-->
+    <header role="banner" class="header">
+        <div class="topnav">
+            <a style="padding:0 0 0 0" href="home.html">
+                <div class="header_logo">
+                    <img src="path2.jpg" alt="Logo" class="logo_image">
+                </div>
+            </a>
+            <a href="account.html" class="header_text">Account</a>
+            <a href="mkpath.html" class="header_text">Make Path</a>
+            <a href="leaderboard.html" class="header_text">Leaderboard</a>
+            <a href="signin.html" class="header_text">Log Out</a>
+        </div>
+    </header>
+
+    <h1>Home</h1>
+    <div class="split left">
+        <div class="imgcontainer">
+            <img src="profilepic.jpg" alt="Profile Photo" class="profile_pic">
+            <p class="user_info">
+                Username<br>
+                Total Distance<br>
+                Favorite Path<br>
+                Ranking
+            </p>
+        </div>
+    </div>
+
+    <div class="split right">
+        <div class="popular_paths">
+            <h2>Popular Paths</h2>
+            <a href="#"><img src="path2.jpg" alt="Path" class="pop_path"></a>
+            <a href="#"><img src="path2.jpg" alt="Path" class="pop_path"></a>
+            <a href="#"><img src="path2.jpg" alt="Path" class="pop_path"></a>
+        <br>
+        </div>
+
+
+        <div class="recommended_paths">
+            <h2>Recommended Paths</h2>
+            <a href="#"><img src="path2.jpg" alt="Path" class="rec_path"></a>
+            <a href="#"><img src="path2.jpg" alt="Path" class="rec_path"></a>
+            <a href="#"><img src="path2.jpg" alt="Path" class="rec_path"></a>
+        </div>
+    </div>
+
+
+
+
+</body>

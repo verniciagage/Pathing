@@ -99,18 +99,22 @@
         </div>
     </header>
 
-    <h1>Sign Up</h1>
+    <h1>Change Password</h1>
 
     <div class="imgcontainer">
         <img src="path2.jpg" alt="Path" class="path">
     </div>
 
     <!--Form-->
-    <form action="signin.html">
+    <form action="action_page.php" method="post">
 
         <div class="container">
             <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+
+            <label for="secreta"><b>Secret Answer</b></label>
+            <input type="text" placeholder="Enter Secret Answer" name="secreta" required>
             <br>
 
             <label for="pwd"><b>Password</b></label>
@@ -123,13 +127,12 @@
             </input>    
         </div>
 
-        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        <br>
 
         <div class="container" style="background-color:f1f1f1">
-            <button type="submit">Sign Up</button>
+            <button type="submit">Reset Password</button>
         </div>
     </form>
-
     <form action="signin.html">
         <div class="container" style="background-color:f1f1f1"><br>
             <button type="submit" class="cancelbtn">Cancel</button>
